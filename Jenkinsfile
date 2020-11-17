@@ -1,8 +1,8 @@
 node{
- stage(checkout){
+ stage('checkout'){
  sh 'echo "checkout"'
  }
- stage(build){
+ stage('build'){
  sh 'echo "Build"'
  }
  }
